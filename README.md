@@ -1,8 +1,8 @@
 quick_start
 ===========
 
-A collection of templates to get you up and running quickly.
+A collection of project templates that will quick start your project.
 
 ### templates
 
-  -  ruby project with minitest
+  -  ruby project with minitest and minitest-reporters
