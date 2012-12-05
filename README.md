@@ -1,7 +1,7 @@
 quick_start
 ===========
 
-A collection of project templates that will quick start your project.
+A collection of project templates to quick start your project.
 
 ### templates
 
