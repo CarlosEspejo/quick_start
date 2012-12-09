@@ -1,4 +1,4 @@
 require 'minitest/autorun'
-require "minitest/reporters"
+require 'turn/autorun'
 
-MiniTest::Reporters.use! MiniTest::Reporters::SpecReporter.new
+Turn.config.format = :outline
