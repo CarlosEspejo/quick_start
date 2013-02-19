@@ -1,0 +1,16 @@
+require 'fileutils'
+
+include FileUtils::Verbose
+
+puts 'enter project name: ' if ARGV[0].nil?
+
+name = ARGV[0]
+
+dir = File.expand_path('../ruby_minitest', File.dirname(__FILE__))
+
+
+cd "#{ENV['HOME']}/ruby"
+mkdir_p "#{name}/lib"
+cp "#{dir}/Gemfile", "#{name}"
+cp "#{dir}/Rakefile", "#{name}"
+cp_r "#{dir}/spec", "#{name}"
