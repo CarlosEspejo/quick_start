@@ -1,3 +1,2 @@
-require 'turn/autorun'
-
-Turn.config.format = :outline
+require "minitest/autorun"
+require "minitest/pride"
